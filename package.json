@@ -1,6 +1,6 @@
 {
   "name": "meta-chart",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Junior Alves",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -27,7 +27,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "rm -rf dist && NODE_ENV=production babel src/ib --out-dir dist --copy-files --ignore __tests__,spec.js, test.js, __snapshots__"
+    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__"
   },
   "eslintConfig": {
     "extends": [
