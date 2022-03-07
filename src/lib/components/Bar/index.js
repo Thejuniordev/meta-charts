@@ -16,26 +16,20 @@ import './Bar.css';
             )}
         </ul>
     )
+
+    const lineList = (
+        <ul className='lines__lists'>
+            {props.lines.map((line) => 
+                <li key={line.id}>
+                    <span className='lines__lists--num'>{line.value}</span>
+                    <span className='line'></span>
+                </li>
+            )}
+        </ul>
+    )
     return(
-    <div className='lines'>
-            <ul className='lines__lists'>
-                <li>
-                    <span className='lines__lists--num'>200</span>
-                    <span className='line'></span>
-                </li>
-                <li>
-                    <span className='lines__lists--num'>150</span>
-                    <span className='line'></span>
-                </li>
-                <li>
-                    <span className='lines__lists--num'>100</span>
-                    <span className='line'></span>
-                </li>
-                <li>
-                    <span className='lines__lists--num'>50</span>
-                    <span className='line'></span>
-                </li>
-            </ul>
+        <div className='lines'>
+            {lineList} 
             {columnList}
         </div>
     )
