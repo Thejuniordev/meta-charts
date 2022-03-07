@@ -1,4 +1,8 @@
 {
-    "presets": ["react-app"],
+  "presets": [
+    "react",
+    "es2015",
+    "stage-2"
+  ],
     "plugins": []
   }
