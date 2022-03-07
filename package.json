@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Thejuniordev/meta-charts"
+    "url": "git+https://github.com/Thejuniordev/meta-charts.git"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
@@ -46,5 +46,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "<h1 align=\"center\">Meta-Charts By Junior Alves</h1> <br> <h3 align=\"center\"> 🚧  The library is under development 🚧 </h3>",
+  "bugs": {
+    "url": "https://github.com/Thejuniordev/meta-charts/issues"
+  },
+  "homepage": "https://github.com/Thejuniordev/meta-charts#readme",
+  "dependencies": {}
 }
