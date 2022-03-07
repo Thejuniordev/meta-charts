@@ -1,4 +1,4 @@
-<h1 align="center">Meta-Charts By Junior Alves</h1>
+<h1 align="center">Meta-Chart By Junior Alves</h1>
 <br>
 <h3 align="center"> 🚧  The library is under development 🚧 </h3>
 
@@ -23,7 +23,7 @@ A library for graphics
 To start development, you need to clone the GitHub project into a directory of your choice:
 
 ```shell
-npm install meta-charts
+npm install meta-chart
 ```
 
  ## Author 🎓

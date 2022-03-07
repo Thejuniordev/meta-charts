@@ -1,5 +1,5 @@
 {
-  "name": "meta-charts",
+  "name": "meta-chart",
   "version": "0.1.0",
   "author": "Junior Alves",
   "main": "dist/index.js",
