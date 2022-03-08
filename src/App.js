@@ -1,7 +1,7 @@
 import React from "react";
 
-import '../App.css';
-import Bar from "../lib/components/Bar";
+import './App.css';
+import Bar from "./lib/components/Bar";
 
 const Items = [
   {id: 1, caption: 'Novos Clientes', value: '200', percent: '100%'},
