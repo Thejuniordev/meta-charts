@@ -15,8 +15,12 @@
     "url": "git+https://github.com/Thejuniordev/meta-charts.git"
   },
   "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.8.4",
+    "@babel/core": "^7.0.0-beta.40",
+    "@babel/cli": "^7.0.0-beta.40",
+    "babel-loader": "^8.0.0-beta.0",
+    "babel-plugin-lodash": "^3.3.2",
+    "babel-plugin-react-transform": "^3.0.0",
+    "@babel/preset-react": "^7.0.0-beta.40",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-scripts": "^1.1.4"
@@ -31,7 +35,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "build":
-      "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__"
+      "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files"
   },
   
   "description": "<h1 align=\"center\">Meta-Charts By Junior Alves</h1> <br> <h3 align=\"center\"> 🚧  The library is under development 🚧 </h3>",

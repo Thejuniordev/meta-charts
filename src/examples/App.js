@@ -1,6 +1,6 @@
 import React from "react";
 
-import './App.css';
+import '../App.css';
 import Bar from "../lib/components/Bar";
 
 const Items = [
