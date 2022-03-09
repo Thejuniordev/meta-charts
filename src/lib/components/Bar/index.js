@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../styles/bar.scss';
+// import '../styles/bar.scss';
 
   function Bar(props){
     const columnList = (
