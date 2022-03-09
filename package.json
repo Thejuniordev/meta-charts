@@ -1,8 +1,13 @@
 {
   "name": "meta-chart",
   "description": "<h1 align=\"center\">Meta-Charts By Junior Alves</h1> <br> <h3 align=\"center\"> 🚧  The library is under development 🚧 </h3>",
-  "version": "0.3.2",
-  "keywords": ["react", "components", "graphic", "charts"],
+  "version": "0.3.3",
+  "keywords": [
+    "react",
+    "components",
+    "graphic",
+    "charts"
+  ],
   "author": "Junior Alves",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -51,12 +56,13 @@
     ]
   },
   "devDependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
     "@babel/cli": "^7.13.14",
     "@babel/core": "^7.13.14",
-    "@babel/preset-env": "^7.13.12"
+    "@babel/plugin-proposal-optional-chaining": "^7.16.7",
+    "@babel/preset-env": "^7.13.12",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3"
   },
   "bugs": {
     "url": "https://github.com/Thejuniordev/meta-charts/issues"
